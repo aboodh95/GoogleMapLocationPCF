@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <manifest>
-  <control namespace="hamwi" constructor="GoogleMapLocation" version="0.0.35" display-name-key="GoogleMapLocation" description-key="GoogleMapLocation description" control-type="standard" api-version="1.2.1">
+  <control namespace="hamwi" constructor="GoogleMapLocation" version="0.0.3" display-name-key="GoogleMapLocation" description-key="GoogleMapLocation description" control-type="standard" api-version="1.2.1">
     <type-group name="numbers">
       <type>FP</type>
       <type>Decimal</type>
