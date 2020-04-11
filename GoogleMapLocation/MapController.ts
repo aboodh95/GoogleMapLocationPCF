@@ -82,6 +82,12 @@ export class MapController {
       this.updateLocationFromPointData({
         Latitude: undefined,
         Longitude: undefined,
+        City: "",
+        Country: "",
+        AddressName: "",
+        PostalCode: "",
+        Street: "",
+        Telephone: "",
       });
     });
     $(document).on("click", "#btnCurrentLocation", async () => {
