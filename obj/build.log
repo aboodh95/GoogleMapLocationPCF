@@ -1,44 +1,43 @@
-﻿  Restore completed in 47.01 ms for C:\Users\abodh\Source\Repos\PCF\GoogleMapLocationPCF\GoogleMapLocationPCF.pcfproj.
-  Restore completed in 1.87 sec for C:\Users\abodh\Source\Repos\PCF\GoogleMapLocationPCF\obj\PowerAppsTools_ha\PowerAppsTools_ha.cdsproj.
+﻿  Restore completed in 69.97 ms for C:\Users\abodh\Source\Repos\PCF\GoogleMapLocationPCF\obj\PowerAppsTools_ha\PowerAppsTools_ha.cdsproj.
+  Restore completed in 69.57 ms for C:\Users\abodh\Source\Repos\PCF\GoogleMapLocationPCF\GoogleMapLocationPCF.pcfproj.
   
   > pcf-project@1.0.0 clean C:\Users\abodh\Source\Repos\PCF\GoogleMapLocationPCF
   > pcf-scripts clean "--noColor" "--buildMode" "development" "--outDir" "C:\Users\abodh\Source\Repos\PCF\GoogleMapLocationPCF\out\controls" "--buildSource" "MSBuild"
   
-  [1:12:13] [clean]  Initializing...
-  [1:12:13] [clean]  Cleaning build outputs...
-  [1:12:13] [clean]  Succeeded
+  [2:14:47] [clean]  Initializing...
+  [2:14:47] [clean]  Cleaning build outputs...
+  [2:14:47] [clean]  Succeeded
   Cleaning output directory: bin\Debug\, Intermediate directory: obj\Debug\ and Solution Packager working directory: obj\Debug\
-C:\Users\abodh\.nuget\packages\microsoft.powerapps.msbuild.solution\1.1.6\build\Microsoft.PowerApps.MSBuild.Solution.targets(130,5): warning MSB3231: Unable to remove directory "bin\Debug\". The process cannot access the file 'C:\Users\abodh\Source\Repos\PCF\GoogleMapLocationPCF\obj\PowerAppsTools_ha\bin\Debug\' because it is being used by another process. [C:\Users\abodh\Source\Repos\PCF\GoogleMapLocationPCF\obj\PowerAppsTools_ha\PowerAppsTools_ha.cdsproj]
   Removing log file: bin\Debug\SolutionPackager.log and generated solution package: bin\Debug\PowerAppsTools_ha.zip
   
   > pcf-project@1.0.0 build C:\Users\abodh\Source\Repos\PCF\GoogleMapLocationPCF
   > pcf-scripts build "--noColor" "--buildMode" "development" "--outDir" "C:\Users\abodh\Source\Repos\PCF\GoogleMapLocationPCF\out\controls" "--buildSource" "MSBuild"
   
-  [1:12:16] [build]  Initializing...
-  [1:12:16] [build]  Validating manifest...
-  [1:12:16] [build]  Validating control...
-  [1:12:17] [build]  Generating manifest types...
-  [1:12:17] [build]  Compiling and bundling control...
+  [2:14:50] [build]  Initializing...
+  [2:14:50] [build]  Validating manifest...
+  [2:14:50] [build]  Validating control...
+  [2:14:51] [build]  Generating manifest types...
+  [2:14:51] [build]  Compiling and bundling control...
   [Webpack stats]:
-  Hash: eefe45452a23aa5c076c
+  Hash: e907be9cb1148c897c4b
   Version: webpack 4.28.4
-  Time: 2832ms
-  Built at: 04/05/2020 1:12:20 AM
+  Time: 3199ms
+  Built at: 05/06/2020 2:14:54 AM
       Asset     Size  Chunks             Chunk Names
-  bundle.js  332 KiB    main  [emitted]  main
+  bundle.js  338 KiB    main  [emitted]  main
   Entrypoint main = bundle.js
-  [./GoogleMapLocation/MapController.ts] 9.51 KiB {main} [built]
-  [./GoogleMapLocation/Util.ts] 627 bytes {main} [built]
-  [./GoogleMapLocation/index.ts] 2.9 KiB {main} [built]
+  [./GoogleMapLocation/LocationDetail.ts] 233 bytes {main} [built]
+  [./GoogleMapLocation/MapController.ts] 14 KiB {main} [built]
+  [./GoogleMapLocation/index.ts] 5.27 KiB {main} [built]
   [./node_modules/jquery/dist/jquery.js] 301 KiB {main} [built]
-  [1:12:20] [build]  Generating build outputs...
-  [1:12:20] [build]  Succeeded
+  [2:14:54] [build]  Generating build outputs...
+  [2:14:54] [build]  Succeeded
   Running Solution Packager to build package type: Unmanaged bin\Debug\PowerAppsTools_ha.zip
-  SolutionPackger CRM Solution Packaging Tool [Version 9.1.0.13]
+  SolutionPackger CRM Solution Packaging Tool [Version 9.1.0.44]
   ? 2017 Microsoft Corporation.  All rights reserved
   
   
-  Packing C:\Users\abodh\Source\Repos\PCF\GoogleMapLocationPCF\obj\PowerAppsTools_ha\obj\Debug\ to bin\Debug\PowerAppsTools_ha.zip
+  Packing C:\Users\abodh\Source\Repos\PCF\GoogleMapLocationPCF\obj\PowerAppsTools_ha\obj\Debug\Metadata to bin\Debug\PowerAppsTools_ha.zip
   
   Processing Component: Entities
   Processing Component: Roles
@@ -58,3 +57,4 @@ C:\Users\abodh\.nuget\packages\microsoft.powerapps.msbuild.solution\1.1.6\build\
   
   Solution: bin\Debug\PowerAppsTools_ha.zip generated.
   Solution Package Type: Unmanaged generated.
+  Completed intermiediate files clean up.

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hOhM/G/kBtsZGI2JfLXMI6FLyzjFUrmDo72zKHnly3mXwUIi5Z1klqBb/GRzL2q53aajxdRuuno+9oi5fA6EHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\abodh\\Source\\Repos\\PCF\\GoogleMapLocationPCF\\GoogleMapLocationPCF.pcfproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abodh\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.2.6\\microsoft.powerapps.msbuild.pcf.1.2.6.nupkg.sha512"
+  ],
+  "logs": []
+}

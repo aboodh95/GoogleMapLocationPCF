@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.6.2": {
-      "Microsoft.PowerApps.MSBuild.Pcf/1.1.6": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.2.6": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
@@ -11,7 +11,7 @@
       }
     },
     ".NETFramework,Version=v4.6.2/win": {
-      "Microsoft.PowerApps.MSBuild.Pcf/1.1.6": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.2.6": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
@@ -20,7 +20,7 @@
       }
     },
     ".NETFramework,Version=v4.6.2/win-x64": {
-      "Microsoft.PowerApps.MSBuild.Pcf/1.1.6": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.2.6": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
@@ -29,7 +29,7 @@
       }
     },
     ".NETFramework,Version=v4.6.2/win-x86": {
-      "Microsoft.PowerApps.MSBuild.Pcf/1.1.6": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.2.6": {
         "type": "package",
         "build": {
           "build/Microsoft.PowerApps.MSBuild.Pcf.props": {},
@@ -39,10 +39,10 @@
     }
   },
   "libraries": {
-    "Microsoft.PowerApps.MSBuild.Pcf/1.1.6": {
-      "sha512": "UbWIr8g8WJiW5Je2iuFEUqo6WgLnKKqMFX4vQMO0BBM9MSKh1FUhFpKFy6yl1PEcdcoML28DLnR1xSZoh5U78A==",
+    "Microsoft.PowerApps.MSBuild.Pcf/1.2.6": {
+      "sha512": "SSNU29umx3MZJ47LyD+ybbaO0QhkUnywSvIuqllK2v9iv2lKXy4+DAZySSyqmZl3s86tIW1NJtWqQEZ0bYdcYg==",
       "type": "package",
-      "path": "microsoft.powerapps.msbuild.pcf/1.1.6",
+      "path": "microsoft.powerapps.msbuild.pcf/1.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -50,7 +50,7 @@
         "LICENSE.txt",
         "build/Microsoft.PowerApps.MSBuild.Pcf.props",
         "build/Microsoft.PowerApps.MSBuild.Pcf.targets",
-        "microsoft.powerapps.msbuild.pcf.1.1.6.nupkg.sha512",
+        "microsoft.powerapps.msbuild.pcf.1.2.6.nupkg.sha512",
         "microsoft.powerapps.msbuild.pcf.nuspec"
       ]
     }

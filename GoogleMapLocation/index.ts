@@ -46,6 +46,21 @@ export class GoogleMapLocation
           this.context.mode.isControlDisabled,
           this.updateLocationPoint.bind(this)
         );
+        let locationDetail = new LocationDetail();
+        locationDetail.AddressName = context.parameters.AddressName.raw?.toString();
+        locationDetail.City = context.parameters.City.raw?.toString();
+        locationDetail.Country = context.parameters.Country.raw?.toString();
+        locationDetail.PostalCode = context.parameters.PostalCode.raw?.toString();
+        locationDetail.Telephone = context.parameters.Telephone.raw?.toString();
+        locationDetail.Latitude = context.parameters.Latitude.raw
+          ? context.parameters.Latitude.raw
+          : undefined;
+        locationDetail.Longitude = context.parameters.Longitude.raw
+          ? context.parameters.Longitude.raw
+          : undefined;
+        setTimeout(() => {
+          this.mapHandler.updateLocationFromPointData(locationDetail, false);
+        }, 1000);
       }
     );
   }

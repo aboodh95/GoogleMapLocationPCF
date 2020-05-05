@@ -115,6 +115,7 @@ export class MapController {
         position: { lat: Latitude, lng: Longitude },
         draggable: true,
       });
+      this.map.setCenter(this.currentMarker.getPosition());
     }
     if (notify) {
       this.notifyLocationChanged(locationDetail);
