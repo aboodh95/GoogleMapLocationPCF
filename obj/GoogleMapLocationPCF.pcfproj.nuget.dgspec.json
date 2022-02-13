@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abodh\\Source\\Repos\\PCF\\GoogleMapLocationPCF\\GoogleMapLocationPCF.pcfproj": {}
+    "C:\\Users\\abodh\\Source\\Repos\\PCF\\GoogleMapLocation\\GoogleMapLocationPCF.pcfproj": {}
   },
   "projects": {
-    "C:\\Users\\abodh\\Source\\Repos\\PCF\\GoogleMapLocationPCF\\GoogleMapLocationPCF.pcfproj": {
+    "C:\\Users\\abodh\\Source\\Repos\\PCF\\GoogleMapLocation\\GoogleMapLocationPCF.pcfproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abodh\\Source\\Repos\\PCF\\GoogleMapLocationPCF\\GoogleMapLocationPCF.pcfproj",
+        "projectUniqueName": "C:\\Users\\abodh\\Source\\Repos\\PCF\\GoogleMapLocation\\GoogleMapLocationPCF.pcfproj",
         "projectName": "GoogleMapLocationPCF",
-        "projectPath": "C:\\Users\\abodh\\Source\\Repos\\PCF\\GoogleMapLocationPCF\\GoogleMapLocationPCF.pcfproj",
+        "projectPath": "C:\\Users\\abodh\\Source\\Repos\\PCF\\GoogleMapLocation\\GoogleMapLocationPCF.pcfproj",
         "packagesPath": "C:\\Users\\abodh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abodh\\Source\\Repos\\PCF\\GoogleMapLocationPCF\\obj\\",
+        "outputPath": "C:\\Users\\abodh\\Source\\Repos\\PCF\\GoogleMapLocation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

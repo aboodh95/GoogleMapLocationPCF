@@ -1,2 +1,4 @@
 C:\Users\abodh\Source\Repos\PCF\GoogleMapLocationPCF\obj\Debug\GoogleMapLocationPCF.pcfprojAssemblyReference.cache
 C:\Users\abodh\Source\Repos\PCF\GoogleMapLocationPCF\obj\Debug\GoogleMapLocationPCF.pcfproj.CoreCompileInputs.cache
+C:\Users\abodh\Source\Repos\PCF\GoogleMapLocation\obj\Debug\GoogleMapLocationPCF.pcfprojAssemblyReference.cache
+C:\Users\abodh\Source\Repos\PCF\GoogleMapLocation\obj\Debug\GoogleMapLocationPCF.pcfproj.CoreCompileInputs.cache
